@@ -1,5 +1,12 @@
 import React from 'react';
+import NavBar from './components/NavBar/NavBar.jsx';
 
-const App = () => <div>Testing</div>;
+import data from './data/navigation.json';
+
+const App = () => (
+  <div>
+    <NavBar destinations={data.cities} />
+  </div>
+);
 
 export default App;
