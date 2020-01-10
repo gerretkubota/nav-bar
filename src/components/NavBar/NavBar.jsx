@@ -38,6 +38,7 @@ export default class NavBar extends Component {
    * Retrieve all of the city name's text-width so that the underline
    * will be in the length in respect to the city name's text-width
    * @DESCRIPTION
+   * IT RESIZES CORRECTLY!
    * SHOULD TRY TO FIGURE OUT HOW TO CALCULATE THE MARGINLEFT CORRECTLY TO
    * BE ALIGNED WITH THE CITY NAME
    */
